@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/styles.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"styles.b61e60ae.css","sourceRoot":"..\\src","sourcesContent":[".flag-wrapper {\r\n width: 400px;\r\n /* height: 1000px; */\r\n}\r\nimg {\r\n width: 100%;\r\n height: auto;\r\n}\r\n"]}

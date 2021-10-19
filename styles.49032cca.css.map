@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,cACC,WAED,CACA,IACC,UAAW,CACX,WACD","file":"styles.49032cca.css","sourceRoot":"..\\src","sourcesContent":[".flag-wrapper {\r\n width: 400px;\r\n /* height: 1000px; */\r\n}\r\nimg {\r\n width: 100%;\r\n height: auto;\r\n}\r\n"]}
