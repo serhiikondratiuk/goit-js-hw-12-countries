@@ -2410,6 +2410,10 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = fetchCountries;
 
 function fetchCountries(searchCountry) {
+  if (searchCountry.length === 0) {
+    return Promise.resolve('');
+  }
+
   return fetch("https://restcountries.com/v2/name/".concat(searchCountry)).then(function (response) {
     return response.json();
   });
@@ -3016,7 +3020,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51236" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53470" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
