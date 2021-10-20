@@ -39,6 +39,9 @@ body {
  display: flex;
  align-items: center;
 }
+.countries-list__item:hover {
+ color: brown;
+}
 .countries-list__item:not(:last-child) {
  margin-bottom: 10px;
 }
