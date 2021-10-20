@@ -2968,9 +2968,7 @@ function onInputChange(e) {
 }
 
 function onCountrySearch(country) {
-  if (!_refs.default.innerHTML) {
-    _refs.default.cardWrapper.innerHTML = '';
-  }
+  _refs.default.cardWrapper.innerHTML = '';
 
   if (country.length > 10) {
     return (0, _pnotify.myNotice)();
@@ -3018,7 +3016,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53427" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51236" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
