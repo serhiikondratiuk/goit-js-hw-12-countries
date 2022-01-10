@@ -23,7 +23,6 @@ function renderCountriesList(country) {
 
 function onInputChange(e) {
  const searchQuery = e.target.value;
-
  fetchCountries(searchQuery).then(onCountrySearch);
 }
 
